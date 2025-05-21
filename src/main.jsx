@@ -5,7 +5,8 @@ import App from './App.jsx';
 import { Toaster } from 'sonner';
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  // strictmode  renders component twice
+  <StrictMode> 
     <Toaster richColors position="top-right" />
     <App />
   </StrictMode>
